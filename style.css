@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 1px;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.home {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.home__desc li {
+    color: grey;
+    display: inline-block;
+}
+
+.home__desc a {
+    color: grey;
+    text-decoration: none;
+}
+
+.home__desc a:hover {
+    color: white;
+}
+
+.receipe__title {
+    margin-top: 20px;
+}
+
+.receipe-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.receipe__one:hover,.receipe__two:hover,.receipe__three:hover{
+    background-color: black;
+    color:white;
+}
+.receipe__one,
+.receipe__two,
+.receipe__three {
+    flex-basis: 12%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    vertical-align: top;
+    border: solid black 2px;
+}
+
+.receipe__one button,
+.receipe__two button,
+.receipe__three button {
+    background-color: black;
+    color: white;
+    border: solid white 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.receipe__one button:hover,
+.receipe__two button:hover,
+.receipe__three button:hover {
+    background-color: greenyellow;
+    color: black;
+    border: solid black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact h3 {
+    padding-top: 20px;
+}
+
+table {
+    display: inline-block;
+}
+
+td {
+    text-align: left;
+}
+
+.send {
+    background-color: greenyellow;
+    color: black;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.send:hover {
+    background-color: orange;
+    color: black;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.contact-table__input {
+    padding: 5px;
+    width: 300px;
+}
